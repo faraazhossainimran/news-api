@@ -58,7 +58,7 @@ const div = document.createElement("div");
 modalContainer.innerHTML = '';
 div.innerHTML = `
   <!-- Open the modal using ID.showModal() method -->
-<button class="btn" onclick="my_modal_1.showModal()">open modal</button>
+<button style="display: none; class="btn" onclick="my_modal_1.showModal()"></button>
 <dialog id="my_modal_1" class="modal">
 <form method="dialog" class="modal-box">
 <img src=${details.image_url}/>
